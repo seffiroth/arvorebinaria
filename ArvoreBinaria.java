@@ -23,7 +23,7 @@ public class ArvoreBinaria<E> {
     private LinkedList<ArvoreBinaria<E>> fila;
     private ArvoreBinaria<E> ultimoVisitado;
     private boolean visitado = false;
-/**
+
     public static void main(String[] args)
     {
         ArvoreBinaria<Integer> a = new ArvoreBinaria(5);
@@ -37,7 +37,7 @@ public class ArvoreBinaria<E> {
         a.visitaEmOrdem();
         //a.proximoPreOrdem();
     }
-*/
+
     /**
      * Cria uma Ã¡rvore binÃ¡ria com dado nulo na raiz.
      */
